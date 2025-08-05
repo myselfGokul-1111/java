@@ -52,6 +52,7 @@ class Citizen
         {
             System.out.println("Enter only integer :"+e);
             vote=0;
+            age=0;
         }
         catch(AgeFormatInvalidException e)
         {
