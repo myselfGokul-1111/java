@@ -32,7 +32,7 @@ class Citizen
     String[] database={"A123456789123456","B123456789123456","C123456789123456","D123456789123456","E123456789123456"};
     public void getInput(){
                 System.out.println("Enter Name          :");
-                sc.nextLine();
+                name=sc.nextLine();
         String input;
          try{
 
